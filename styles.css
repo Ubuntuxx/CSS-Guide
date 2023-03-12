@@ -1,12 +1,31 @@
-#product-overview {
-    background: #ff1b68;
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Golos+Text&display=swap');
+
+* {
+    box-sizing: border-box;
 }
 
-h1 {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#product-overview {
+    background: #ff1b68;
+    width: 100%;
+    height: 528px;
+    padding: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Golos Text', sans-serif;
 }
 
 .section-title {
     color: #2ddf5c;
+}
+
+.main-header {
+    width: 100%;
+    background-color: #2ddf5c;
+    padding: 8px 16px;
+}
+
+.main-nav__item {
+    display: inline-block;
 }
